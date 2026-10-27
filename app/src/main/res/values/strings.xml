@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JY Forward</string>
+    <string name="app_subtitle">Smart Dual-SIM SMS Webhook Forwarder</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_filters">Filters</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Service & Notifications -->
+    <string name="service_notification_channel_name">JY Forward Background Service</string>
+    <string name="service_notification_title">JY Forward Service Active</string>
+    <string name="service_notification_body">Monitoring Dual-SIM incoming SMS messages in real time</string>
+    <string name="service_running">Foreground Service Active</string>
+    <string name="service_stopped">Foreground Service Stopped</string>
+    <string name="btn_start_service">Start Service</string>
+    <string name="btn_stop_service">Stop Service</string>
+
+    <!-- Permissions Banner -->
+    <string name="permissions_title">Required Android 13 Permissions &amp; Doze Protection</string>
+    <string name="permissions_desc">Grant SMS, Notification, and Battery Optimization exemption so JY Forward runs reliably when locked.</string>
+    <string name="btn_grant_permissions">Grant Permissions</string>
+    <string name="btn_battery_optimization">Disable Battery Optimization</string>
+    <string name="battery_optimized_ok">Unrestricted Battery (Doze Safe)</string>
+
+    <!-- Filters Screen -->
+    <string name="filters_empty_title">No SMS Forwarding Rules Yet</string>
+    <string name="filters_empty_desc">Tap the + button below or load the sample JomYekta Card-to-Card rule to start forwarding SMS messages to your webhook URL.</string>
+    <string name="btn_add_filter">Add Rule</string>
+    <string name="btn_add_sample_rule">Add JomYekta Sample Rule</string>
+    <string name="dialog_add_filter">Create Forwarding Rule</string>
+    <string name="dialog_edit_filter">Edit Forwarding Rule</string>
+    <string name="field_rule_name">Rule Title (e.g., Card-to-Card Payment)</string>
+    <string name="field_sender">Sender Number / Contact (* for any sender)</string>
+    <string name="field_keyword">Keyword (Case-Insensitive, e.g., واریز)</string>
+    <string name="field_url">Destination Webhook URL (use {msg}, {sender}, {sim})</string>
+    <string name="field_method">HTTP Method</string>
+    <string name="field_sim_slot">SIM Card Filter</string>
+    <string name="sim_any">Both SIMs (All)</string>
+    <string name="sim_1">SIM 1 Only</string>
+    <string name="sim_2">SIM 2 Only</string>
+    <string name="btn_save">Save Rule</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_clone">Clone</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_test_rule">Test Webhook</string>
+    <string name="rule_summary_prefix">Summary:</string>
+    <string name="rule_enabled">Active</string>
+    <string name="rule_disabled">Paused</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Triggered Forward History</string>
+    <string name="btn_clear_all">Clear All</string>
+    <string name="history_empty_title">No Triggered Messages Logged</string>
+    <string name="history_empty_desc">Only incoming SMS messages that match an active filter rule are recorded here.</string>
+    <string name="status_success">HTTP %1$d OK</string>
+    <string name="status_failed">Failed (%1$s)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Appearance &amp; Localization</string>
+    <string name="settings_theme">App Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_language">Language / زبان</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_english">English</string>
+    <string name="lang_persian">فارسی (Persian)</string>
+    <string name="settings_font_size">Font Size Scale</string>
+
+    <string name="settings_security">Security</string>
+    <string name="settings_app_lock">Biometric / PIN App Lock on Launch</string>
+    <string name="settings_app_lock_desc">Require Fingerprint, Face, PIN, or Pattern when opening JY Forward</string>
+    <string name="biometric_title">Unlock JY Forward</string>
+    <string name="biometric_subtitle">Authenticate with Biometrics or Device PIN/Pattern</string>
+    <string name="btn_unlock_now">Authenticate to Unlock</string>
+
+    <string name="settings_backup">Backup &amp; Restore (Room DB JSON)</string>
+    <string name="btn_export_json">Export Rules &amp; Settings (JSON)</string>
+    <string name="btn_import_json">Import Rules &amp; Settings (JSON)</string>
+    <string name="backup_success">Backup exported successfully</string>
+    <string name="import_success">Rules imported successfully</string>
+
+    <string name="settings_about">About Us</string>
+    <string name="about_version">Version %1$s (API 33 Android 13 Ready)</string>
+    <string name="about_company">Developed for JomYekta Smart Payment &amp; Automation Ecosystem</string>
+</resources>

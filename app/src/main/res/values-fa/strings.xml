@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JY Forward</string>
+    <string name="app_subtitle">سامانه هوشمند هدایت پیامک دو سیم‌کارته به وب‌هوک</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_filters">فیلترها</string>
+    <string name="nav_history">تاریخچه</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- Service & Notifications -->
+    <string name="service_notification_channel_name">سرویس پس‌زمینه جی‌وای فوروارد</string>
+    <string name="service_notification_title">سرویس JY Forward فعال است</string>
+    <string name="service_notification_body">در حال پایش لحظه‌ای پیامک‌های دریافتی هر دو سیم‌کارت در پس‌زمینه</string>
+    <string name="service_running">سرویس پیش‌زمینه فعال است</string>
+    <string name="service_stopped">سرویس متوقف شده است</string>
+    <string name="btn_start_service">شروع سرویس</string>
+    <string name="btn_stop_service">توقف سرویس</string>
+
+    <!-- Permissions Banner -->
+    <string name="permissions_title">دسترسی‌های ضروری اندروید ۱۳ و بهینه‌سازی باتری</string>
+    <string name="permissions_desc">برای عملکرد پایدار هنگام قفل بودن گوشی یا حالت Doze، دسترسی پیامک، اعلان و عدم محدودیت باتری را فعال کنید.</string>
+    <string name="btn_grant_permissions">اعطای دسترسی‌ها</string>
+    <string name="btn_battery_optimization">لغو محدودیت باتری (Doze)</string>
+    <string name="battery_optimized_ok">بدون محدودیت باتری (پایدار در حالت قفل)</string>
+
+    <!-- Filters Screen -->
+    <string name="filters_empty_title">هنوز هیچ قانون فیلتری ثبت نشده است</string>
+    <string name="filters_empty_desc">روی دکمه + بزنید یا قانون نمونه کارت‌به‌کارت جم‌یکتا را اضافه کنید تا پیامک‌های بانکی به آدرس وب‌هوک ارسال شوند.</string>
+    <string name="btn_add_filter">افزودن فیلتر</string>
+    <string name="btn_add_sample_rule">افزودن فیلتر نمونه جم‌یکتا (واریز)</string>
+    <string name="dialog_add_filter">ایجاد قانون هدایت پیامک</string>
+    <string name="dialog_edit_filter">ویرایش قانون هدایت پیامک</string>
+    <string name="field_rule_name">عنوان فیلتر (مثال: تایید واریز کارت به کارت)</string>
+    <string name="field_sender">شماره فرستنده / سرشماره (* برای همه فرستنده‌ها)</string>
+    <string name="field_keyword">کلمه کلیدی (بدون حساسیت به حروف، مثال: واریز)</string>
+    <string name="field_url">آدرس وب‌هوک مقصد (استفاده از {msg} برای متن پیامک)</string>
+    <string name="field_method">متد ارسال (GET / POST)</string>
+    <string name="field_sim_slot">انتخاب سیم‌کارت</string>
+    <string name="sim_any">هر دو سیم‌کارت (همه)</string>
+    <string name="sim_1">فقط سیم‌کارت ۱</string>
+    <string name="sim_2">فقط سیم‌کارت ۲</string>
+    <string name="btn_save">ذخیره قانون</string>
+    <string name="btn_cancel">انصراف</string>
+    <string name="btn_edit">ویرایش</string>
+    <string name="btn_clone">کپی (Clone)</string>
+    <string name="btn_delete">حذف</string>
+    <string name="btn_test_rule">تست وب‌هوک</string>
+    <string name="rule_summary_prefix">خلاصه قانون:</string>
+    <string name="rule_enabled">فعال</string>
+    <string name="rule_disabled">غیرفعال</string>
+
+    <!-- History Screen -->
+    <string name="history_title">تاریخچه پیامک‌های ارسال‌شده</string>
+    <string name="btn_clear_all">پاک کردن همه</string>
+    <string name="history_empty_title">هیچ پیامک منطبقی ثبت نشده است</string>
+    <string name="history_empty_desc">فقط پیامک‌هایی که با یکی از فیلترهای فعال مطابقت داشته باشند در این بخش ثبت می‌شوند.</string>
+    <string name="status_success">کد HTTP %1$d موفق</string>
+    <string name="status_failed">خطا (%1$s)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">ظاهر برنامه و زبان</string>
+    <string name="settings_theme">پوسته برنامه (Theme)</string>
+    <string name="theme_system">پیش‌فرض سیستم</string>
+    <string name="theme_light">روشن (Light)</string>
+    <string name="theme_dark">تاریک (Dark)</string>
+    <string name="settings_language">زبان برنامه / Language</string>
+    <string name="lang_system">پیش‌فرض سیستم</string>
+    <string name="lang_english">English (انگلیسی)</string>
+    <string name="lang_persian">فارسی (Persian)</string>
+    <string name="settings_font_size">اندازه فونت (مقیاس متن)</string>
+
+    <string name="settings_security">امنیت و قفل برنامه</string>
+    <string name="settings_app_lock">قفل بیومتریک / پین هنگام ورود به برنامه</string>
+    <string name="settings_app_lock_desc">درخواست اثر انگشت، تشخیص چهره، الگو یا رمز گوشی در بدو ورود به JY Forward</string>
+    <string name="biometric_title">باز کردن قفل JY Forward</string>
+    <string name="biometric_subtitle">لطفاً با اثر انگشت یا رمز/الگوی دستگاه احراز هویت کنید</string>
+    <string name="btn_unlock_now">احراز هویت و ورود</string>
+
+    <string name="settings_backup">پشتیبان‌گیری و بازیابی (خروجی JSON)</string>
+    <string name="btn_export_json">خروجی گرفتن از قوانین و تنظیمات (Backup JSON)</string>
+    <string name="btn_import_json">درون‌ریزی قوانین و تنظیمات (Import JSON)</string>
+    <string name="backup_success">فایل پشتیبان با موفقیت ذخیره شد</string>
+    <string name="import_success">قوانین با موفقیت بازیابی شدند</string>
+
+    <string name="settings_about">درباره ما (About Us)</string>
+    <string name="about_version">نسخه %1$s (سازگار با اندروید ۱۳ - API 33)</string>
+    <string name="about_company">توسعه یافته برای اکوسیستم پرداخت و اتوماسیون هوشمند جم‌یکتا</string>
+</resources>
